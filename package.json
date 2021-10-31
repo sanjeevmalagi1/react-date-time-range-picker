@@ -1,0 +1,38 @@
+{
+  "name": "react-date-time-range-picker",
+  "version": "1.0.0",
+  "description": "Date and time range picker written in react",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "prettier --check \"src/**/*.{js,jsx}\"",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanjeevmalagi1/react-date-time-range-picker.git"
+  },
+  "author": "@sanjeevmalagi1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanjeevmalagi1/react-date-time-range-picker/issues"
+  },
+  "homepage": "https://github.com/sanjeevmalagi1/react-date-time-range-picker#readme",
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@snowpack/app-scripts-react": "^2.0.1",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.1.2",
+    "jest": "^27.3.1",
+    "prettier": "^2.4.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "snowpack": "^3.8.8"
+  }
+}
